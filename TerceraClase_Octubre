@@ -1,11 +1,11 @@
 /* void main() {
   var usuario1 = User(); // Instancia de User
   // User usuario2 = User();
-  // usuario1.nombre = "Cristian"; // Asignar el valor a las propiedades de el objeto
+  // usuario1.nombre = "Ernesto"; // Asignar el valor a las propiedades de el objeto
   // usuario1.edad = 18;
-  // usuario2.nombre = "Armando";
+  // usuario2.nombre = "Ernestoo";
   // usuario2.edad = 19;
-  usuario1._nombre = "Cristian";
+  usuario1._nombre = "Ernesto";
   usuario1._edad = 18;
   usuario1.reporte();
   // usuario2.reporte();
@@ -45,7 +45,7 @@ void main() {
   var estudiante1 = estudiante();
   estudiante1.carrera = "Ingenieria en Computacion Inteligente.";
   estudiante1.semestre = 3;
-  estudiante1.num_cuenta = "20188165";
+  estudiante1.num_cuenta = "20184730";
   estudiante1.reporte();
 }
  */
@@ -55,7 +55,7 @@ void main() {
 
 /* void main() {
   User usuario1 = User();
-  // usuario1.setNombre = "Cristian";
+  // usuario1.setNombre = "Ernesto";
   // usuario1.setEdad = 18;
   print(usuario1._nombre);
   // print(usuario1._edad);
@@ -192,14 +192,14 @@ class Calculadora {
 // }
 
 /* void main(List<String> args) {
-  Persona cristian = new Persona();
-  cristian.aMaterno = "Bravo";
-  cristian.aPaterno = "Larios";
-  cristian.nombre = "Cristian";
-  cristian.aNacimiento = 2003;
-  cristian.showName(cristian.nombre, cristian.aPaterno, cristian.aMaterno);
-  print("Tienes ${cristian.calcularEdad(cristian.aNacimiento)} años");
-  cristian.showname2();
+  Persona ernesto = new Persona();
+  ernesto.aMaterno = "Bravo";
+  ernesto.aPaterno = "Larios";
+  ernesto.nombre = "Cristian";
+  ernesto.aNacimiento = 2003;
+  ernesto.showName(ernesto.nombre, ernesto.aPaterno, ernesto.aMaterno);
+  print("Tienes ${ernesto.calcularEdad(ernesto.aNacimiento)} años");
+  ernesto.showname2();
 }
 class Persona {
   String nombre = "";
